@@ -6,6 +6,9 @@
 
 This repository contains a library for interfacing the [Adafruit Fingerprint Sensor](https://www.adafruit.com/product/4690) with an STM32F4 microcontroller. This library was developed as part of a project for the Embedded System Design course at the University of Colorado Boulder.
 
+![image](https://github.com/kiranj26/Adafruit_Fingerprint_STM32F4/assets/111842372/6010a094-1db7-4dd5-8c19-a0baab9a4497)
+
+
 ## Features
 
 - **Easy Integration**: Simple and straightforward API for interfacing with the fingerprint sensor.
