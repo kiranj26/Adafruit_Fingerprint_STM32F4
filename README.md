@@ -29,6 +29,19 @@ This repository contains a library for interfacing the [Adafruit Fingerprint Sen
 1. Clone the repository and open it in STM32CubeIDE.
 2. Configure the microcontroller settings in STM32CubeMX.
 3. Add the source files from the `src` directory to your project.
+4. 
+### Hardware Connections
+
+To connect the Adafruit Fingerprint Sensor to the STM32F4 microcontroller, use the following connections:
+
+| Fingerprint Sensor | STM32F4          |
+|--------------------|------------------|
+| VCC                | 3.3V or 5V       |
+| GND                | GND              |
+| TX                 | RX (e.g., PA10)  |
+| RX                 | TX (e.g., PA9)   |
+
+Refer to the specific pin configuration of your STM32F4 board for exact pin numbers.
 
 ### Usage
 
